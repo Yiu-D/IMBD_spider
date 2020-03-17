@@ -80,7 +80,6 @@ func toWork(start, end int) {
 
 }
 
-//git测试
 func main() {
 	var start, end int
 	fmt.Print("请输入爬取的起始页(>=1):")
