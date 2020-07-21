@@ -12,7 +12,7 @@ import (
 func HttpGetDB(url string) (result string, err error) {
 	resp, err1 := http.Get(url)
 	if err1 != nil {
-		err = err1
+		err = err11
 		return
 	}
 	defer resp.Body.Close()
